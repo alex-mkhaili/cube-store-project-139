@@ -1,0 +1,101 @@
+body {
+    height: 3000px;
+    padding-top: 100px;
+}
+.header-container {
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+.logo-img {
+    width: 75%;
+}
+.header-nav-block {
+    max-width: 700px;
+    width: 100%;
+}
+.header-nav-ul {
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav-ul li a {
+    font-size: 22px;
+    font-family: var(--font-poppins);
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+}
+.header-ul-item {
+    position: relative;
+}
+.header-ul-item:hover a::after {
+    content: '';
+    height: 2px;
+    width: 80%;
+    background-color: var(--color-main);
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -14px;
+}
+.header-buttons-block {
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-icon-block {
+    position: relative;
+}
+.cart-icon {
+    font-size: 26px;
+    color: gray;
+    cursor: pointer;
+}
+.cart-counter-block {
+    background-color: red;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    font-size: 18px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    color: #fff;
+    font-family: var(--font-poppins);
+    cursor: pointer;
+}
+.header-btn {
+    font-size: 18px;
+    font-family: var(--font-poppins);
+    font-weight: 600;
+    max-width: 90px;
+    height: 50px;
+    width: 100%;
+    text-transform: uppercase;
+    border-radius: 6px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.login-btn {
+    border: 2px solid var(--color-main);
+    color: var(--color-main);
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+.signup-btn {
+    background-color: var(--color-main);
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+}
+.user-icon {
+    display: none;
+}

@@ -1,0 +1,8 @@
+/* Header button hovers */
+.login-btn:hover {
+    background-color: var(--color-main);
+    color: #fff;
+}
+.signup-btn:hover {
+    background-color: #05628a;
+}
