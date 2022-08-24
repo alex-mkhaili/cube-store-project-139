@@ -1,10 +1,9 @@
 body {
-    height: 3000px;
     padding-top: 100px;
 }
 .header-container {
     width: 100%;
-    padding: 0 15px;
+    padding: 0 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,6 +12,9 @@ body {
     height: 100px;
     top: 0;
     left: 0;
+    background-color: #fff;
+    background-color: rgb(245, 245, 245);
+    border-bottom: 1px solid rgb(197, 196, 196);
 }
 .logo-img {
     width: 75%;
@@ -38,13 +40,16 @@ body {
 .header-ul-item:hover a::after {
     content: '';
     height: 2px;
-    width: 80%;
+    width: 90%;
     background-color: var(--color-main);
     display: block;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     bottom: -14px;
+}
+.header-nav-ul li .active {
+    color: var(--color-main);
 }
 .header-buttons-block {
     max-width: 250px;
@@ -66,7 +71,7 @@ body {
     position: absolute;
     top: -8px;
     right: -8px;
-    font-size: 18px;
+    font-size: var(--font-size-18);
     padding: 2px 6px;
     border-radius: 50%;
     color: #fff;
@@ -74,7 +79,7 @@ body {
     cursor: pointer;
 }
 .header-btn {
-    font-size: 18px;
+    font-size: var(--font-size-18);
     font-family: var(--font-poppins);
     font-weight: 600;
     max-width: 90px;
