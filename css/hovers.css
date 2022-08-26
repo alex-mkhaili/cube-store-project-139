@@ -6,3 +6,7 @@
 .signup-btn:hover {
     background-color: #05628a;
 }
+.filter-btn:hover {
+    background-color: var(--color-main);
+    color: #fff;
+}

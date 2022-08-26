@@ -1,3 +1,6 @@
+.filter-content-container {
+    display: flex;
+}
 .filter-section {
     max-width: 350px;
     width: 100%;
@@ -44,4 +47,22 @@
 }
 .brand-checkbox {
     font-family: var(--font-asap);
+}
+.filter-btn-block {
+    margin: 40px 0;
+}
+.filter-btn {
+    font-size: var(--font-size-18);
+    font-family: var(--font-poppins);
+    font-weight: 600;
+    max-width: 230px;
+    height: 50px;
+    width: 100%;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border: 2px solid var(--color-main);
+    color: var(--color-main);
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
 }
