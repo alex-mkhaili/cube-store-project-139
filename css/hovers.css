@@ -10,3 +10,9 @@
     background-color: var(--color-main);
     color: #fff;
 }
+.product-search:focus {
+    border-color: var(--color-main);
+}
+.content-nav-text:hover {
+    transform: scale(1.06);
+}

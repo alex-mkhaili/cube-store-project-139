@@ -29,7 +29,7 @@
             <div class="header-nav-block">
                 <nav class="header-nav">
                     <ul class="header-nav-ul">
-                        <li class="header-ul-item"><a class="active" href="index.html">All Products</a></li>
+                        <li class="header-ul-item"><a class="active1" href="index.html">All Products</a></li>
                         <li class="header-ul-item"><a href="#">Best Sellers</a></li>
                         <li class="header-ul-item"><a href="#">Quiz</a></li>
                         <li class="header-ul-item"><a href="#">About</a></li>
@@ -52,9 +52,9 @@
     </header>
     <!-- End of Header -->
 
-    <!-- Section -->
-    <section class="filter-content-container">
-        <!-- Aside -->
+    <!-- Aside & Section -->
+    <div class="filter__content-container">
+
         <aside class="filter-section">
             <div class="filter-title-block">
                 <h3 class="filter-title">Filters</h3>        
@@ -264,13 +264,38 @@
                 <button class="filter-btn">Apply Filters</button>
             </div>
         </aside>
-        <!-- End of Aside -->
 
-        <div class="product-container">
-            <div class="search-container">asda</div>
-            <div class="sort-container">asd</div>
-            <div class="product-content-container">asd</div>
-        </div>
-    </section>
+        <section class="product-container">
+            <div>
+                <form class="search-container" action="#">
+                    <input class="product-search" type="search" name="search" id="product-search" placeholder="Search for product...">
+                    <button class="product-search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+            <div class="sort-container">
+                <div class="content-navigation-blocks">
+                    <div class="content-nav-1">
+                        <p class="content-nav-text active2">New Products</p>
+                    </div>
+                    <div class="content-nav-2">
+                        <p class="content-nav-text">Sales</p>
+                    </div>
+                </div>
+                <div class="content-sort-block">
+                    <form action="#">
+                        <label for="sort-dropdown">Sort by:</label>
+                        <select name="sort" id="sort-dropdown">
+                            <option value="newest">Newest first</option>
+                            <option value="low-to-high">Price: Low to High</option>
+                            <option value="high-to-low">Price: High to Low</option>
+                            <option value="recommended" selected>Recommended</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+            <div class="product-content-container"></div>
+        </section>
+    </div>
+    <!-- End of Aside & Section -->
 </body>
 </html>
