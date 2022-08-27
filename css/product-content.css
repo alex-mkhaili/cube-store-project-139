@@ -1,12 +1,11 @@
 .product-container {
     /* background-color: gray; */
     width: 100%;
-    padding-top: 16px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 16px 15px 0 15px;
 }
+
+/* Search styles */
 .search-container {
-    /* background-color: gray; */
     height: 45px;
     display: flex;
     justify-content: center;
@@ -35,6 +34,9 @@
     color: rgb(232, 230, 230);;
     border-color: var(--color-main);
 }
+
+
+/* Sort styles */
 .sort-container {
     /* background-color: lightblue; */
     margin-top: 24px;
@@ -80,4 +82,72 @@
 .content-sort-block form label {
     font-family: var(--font-asap);
     font-size: var(--font-size-14);
+}
+.content-sort-block form select {
+    outline: none;
+    border: 1px solid var(--color-main);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Product styles */
+.product-content-container {
+    /* background-color: lightpink; */
+    /* padding-top: 25px;
+    padding-left: 6px; */
+    padding: 50px 15px 100px;
+    display: grid;
+    justify-content: space-evenly;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fill, 320px);
+}
+.product-block {
+    /* background-color: lightblue; */
+    max-width: 320px;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    border-radius: 6px;
+}
+.product-img-block {
+    background-color: yellow;
+}
+.product-img {
+    display: block;
+}
+.product-title-block {
+    /* text-align: center; */
+    padding-top: 10px;
+}
+.product-title-text {
+    font-family: var(--font-asap);
+    font-size: var(--font-size-18);
+}
+.product-price-block {
+    /* text-align: center; */
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+.product-price {
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-20);
+    color: var(--color-main);
+    font-weight: 600;
+}
+.product-btn-block {
+    /* text-align: center; */
+    /* padding-bottom: 6px; */
+}
+.product-btn {
+    font-family: var(--font-asap);
+    font-size: var(--font-size-16);
+    padding: 8px 30px;
+    border: 2px solid var(--color-main);
+    border-radius: 30px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: all 0.15s ease-in;
 }

@@ -16,3 +16,7 @@
 .content-nav-text:hover {
     transform: scale(1.06);
 }
+.product-btn:hover {
+    background-color: var(--color-main);
+    color: #fff;
+}
