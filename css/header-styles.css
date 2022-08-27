@@ -17,12 +17,16 @@ body {
     border-bottom: 2px solid rgb(197, 196, 196);
     z-index: 100;
 }
+.header-logo-block {
+    /* background-color: yellow; */
+}
 .logo-img {
     width: 75%;
 }
 .header-nav-block {
-    max-width: 700px;
+    max-width: 800px;
     width: 100%;
+    /* background-color: blue; */
 }
 .header-nav-ul {
     display: flex;
