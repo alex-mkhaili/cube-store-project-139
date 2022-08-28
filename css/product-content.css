@@ -1,5 +1,4 @@
 .product-container {
-    /* background-color: gray; */
     width: 100%;
     padding: 16px 15px 0 15px;
 }
@@ -38,7 +37,6 @@
 
 /* Sort styles */
 .sort-container {
-    /* background-color: lightblue; */
     margin-top: 24px;
     display: flex;
     justify-content: space-between;
@@ -46,12 +44,10 @@
     padding-bottom: 20px;
 }
 .content-navigation-blocks {
-    /* background-color: lightpink; */
     display: flex;
     justify-content: space-between;
     max-width: 300px;
     width: 100%;
-    /* padding-left: 10px; */
 }
 .content-nav-1 {
     position: relative;
@@ -76,9 +72,6 @@
     left: 0;
     bottom: -21px;
 }
-.content-sort-block {
-    /* background-color: lightblue; */
-}
 .content-sort-block form label {
     font-family: var(--font-asap);
     font-size: var(--font-size-14);
@@ -92,9 +85,6 @@
 
 /* Product styles */
 .product-content-container {
-    /* background-color: lightpink; */
-    /* padding-top: 25px;
-    padding-left: 6px; */
     padding: 50px 15px 35px;
     display: grid;
     justify-content: space-evenly;
@@ -102,7 +92,6 @@
     grid-template-columns: repeat(auto-fill, 320px);
 }
 .product-block {
-    /* background-color: lightblue; */
     max-width: 320px;
     width: 100%;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
@@ -114,14 +103,12 @@
     position: relative;
     transition: all 0.1s linear;
 }
-.product-img-block {
-    /* background-color: yellow; */
-}
 .product-img {
     display: block;
+    cursor: pointer;
+    transition: all 0.15s linear;
 }
 .product-title-block {
-    /* text-align: center; */
     padding-top: 10px;
 }
 .product-title-text {
@@ -129,7 +116,6 @@
     font-size: var(--font-size-18);
 }
 .product-price-block {
-    /* text-align: center; */
     padding-top: 14px;
     padding-bottom: 14px;
 }
@@ -138,10 +124,6 @@
     font-size: var(--font-size-20);
     color: var(--color-main);
     font-weight: 600;
-}
-.product-btn-block {
-    /* text-align: center; */
-    /* padding-bottom: 6px; */
 }
 .product-btn {
     font-family: var(--font-asap);
@@ -163,7 +145,6 @@
     transition: all 0.15s ease-out;
 }
 .page-navigation-block {
-    /* background-color: lightblue; */
     max-width: 500px;
     width: 100%;
     margin: 0 auto;
@@ -190,7 +171,6 @@
     margin-left: 10px;
 }
 .page-number-block {
-    /* background-color: lightpink; */
     font-family: var(--font-asap);
     font-size: var(--font-size-18);
     display: flex;

@@ -1,4 +1,3 @@
-/* Header button hovers */
 .header-ul-item:hover a::after {
     content: '';
     height: 2px;
@@ -17,10 +16,12 @@
 .signup-btn:hover {
     background-color: #05628a;
 }
+
 .filter-btn:hover {
     background-color: var(--color-main);
     color: #fff;
 }
+
 .product-search:focus {
     border-color: var(--color-main);
 }
@@ -31,6 +32,7 @@
     background-color: var(--color-main);
     color: #fff;
 }
+
 .page-number-block a:hover {
     background-color: rgb(221, 221, 221);
     border-radius: 4px;
@@ -38,13 +40,17 @@
 .page-nav-btn:hover {
     background-color: #05628a;
 }
+.product-block:hover {
+    transform: scale(1.02);
+}
+.product-img:hover {
+    transform: scale(1.02);
+}
 .heart-icon:hover {
     color: rgb(250, 55, 55);
     transform: scale(1.1);
 }
+
 .newsletter-btn:hover {
     background-color: #05628a;
-}
-.product-block:hover {
-    transform: scale(1.02);
 }
