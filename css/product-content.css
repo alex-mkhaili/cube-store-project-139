@@ -112,6 +112,7 @@
     padding: 20px 0;
     border-radius: 6px;
     position: relative;
+    transition: all 0.1s linear;
 }
 .product-img-block {
     /* background-color: yellow; */

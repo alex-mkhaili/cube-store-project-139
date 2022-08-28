@@ -40,7 +40,11 @@
 }
 .heart-icon:hover {
     color: rgb(250, 55, 55);
+    transform: scale(1.1);
 }
 .newsletter-btn:hover {
     background-color: #05628a;
+}
+.product-block:hover {
+    transform: scale(1.02);
 }
