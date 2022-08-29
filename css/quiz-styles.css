@@ -1,6 +1,8 @@
+.about-video {
+    max-width: 100%;
+}
 .quiz-container {
     position: relative;
-    margin: 100px 0;
 }
 .quiz-img {
     width: 100%;
