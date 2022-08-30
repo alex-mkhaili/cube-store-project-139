@@ -49,8 +49,12 @@ a {
 }
 textarea {
 	resize: none;
+	outline: none;
 }
 button {
 	border: none;
+	outline: none;
+}
+input {
 	outline: none;
 }

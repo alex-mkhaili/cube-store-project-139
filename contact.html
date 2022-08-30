@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/variables.css">
     <link rel="stylesheet" href="css/hovers.css">
     <link rel="stylesheet" href="css/header-styles.css">
-    <link rel="stylesheet" href="css/quiz-styles.css">
+    <link rel="stylesheet" href="css/contact-styles.css">
     <link rel="stylesheet" href="css/footer-styles.css">
 </head>
 <body>
@@ -31,9 +31,9 @@
                     <ul class="header-nav-ul">
                         <li class="header-ul-item"><a href="index.html">All Products</a></li>
                         <li class="header-ul-item"><a href="best-sellers.html">Best Sellers</a></li>
-                        <li class="header-ul-item"><a class="active1" href="quiz.html">Quiz</a></li>
+                        <li class="header-ul-item"><a href="quiz.html">Quiz</a></li>
                         <li class="header-ul-item"><a href="about.html">About</a></li>
-                        <li class="header-ul-item"><a href="contact.html">Contact</a></li>
+                        <li class="header-ul-item"><a class="active1" href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -54,19 +54,81 @@
     
     <!-- Section -->
     <section>
-        <video class="about-video" src="img/rubiks-hero-banner.mp4" muted preload="auto" loop playsinline autoplay></video>
-        <div class="quiz-container">
-           <img class="quiz-img" src="img/take-the-quiz-img.jpg" alt="Take-the-Quiz image">
-           <img class="quiz-img-mobile" src="img/take-the-quiz-img-mobile-version.jpg" alt="Take-the-Quiz image">
-           <div class="quiz-content-block">
-               <h1 class="quiz-title">Find the cube for you</h1>
-               <button class="quiz-btn">Take the quiz</button>
-           </div>
+        <div class="form-section-container">
+            <div class="form-section-content">
+                <div class="title-container">
+                    <div class="contact-title-block">
+                        <h1 class="contact-title-text">Contact Us</h1>
+                    </div>
+                    <div class="contact-subtitle-block">
+                        <p class="contact-subtitle-text">Any question or remarks? Just write us a message!</p>
+                    </div>
+                </div>
+                <div class="form-container">
+                    <div class="contact-card-container">
+                        <div class="contact-card-title-block">
+                            <h2 class="contact-card-title-text">Contact Information</h2>
+                        </div>
+                        <div class="contact-card-subtitle-block">
+                            <p class="contact-card-subtitle-text">Fill up the form and our Team will get back to you within 24 hours.</p>
+                        </div>
+                        <div class="contact-icon-container">
+                            <div class="contact-icon-block"><i class="fa-solid fa-phone"></i>
+                                <a href="tel:+0123 4567 8910">+0123 4567 8910</a>
+                            </div>
+                            <div class="contact-icon-block"><i class="fa-solid fa-envelope"></i>
+                                <a href="mailto:cubestore@gmail.com?subject=Hello%20from%20Alex!">cubestore@gmail.com.</a>
+                            </div>
+                        </div>
+                        <div class="contact-social-media-icons-block">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="https://twitter.com/">
+                                <i class="fa-brands fa-twitter" target="_blank"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="form-block">
+                        <form action="#">
+                            <div class="form-input-block">
+                                <div class="name-input-block">
+                                    <label class="input-label" for="first-name">First Name</label>
+                                    <input class="form-input" type="text" name="fname" id="first-name">
+                                </div>
+                                <div class="name-input-block">
+                                    <label class="input-label" for="last-name">Last Name</label>
+                                    <input class="form-input" type="text" name="lname" id="last-name">
+                                </div>
+                            </div>
+                            <div class="form-mail-textarea-block">
+                                <div class="mail-input-block">
+                                    <label class="input-label" for="mail">Mail</label>
+                                    <input class="form-input" type="email" name="mail" id="mail">
+                                </div>
+                                <label class="input-label font-color" for="message">Message</label>
+                                <textarea name="text" id="message" placeholder="Write your message..."></textarea> 
+                            </div>
+                            <div class="form-btn-block">
+                                <button class="form-send-btn">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="contact-map-block">
+                    <div class="contact-map-title-block">
+                        <h3 class="contact-map-title">Or visit our store</h3>
+                    </div>
+                    <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3218.0578436717024!2d-115.10882408437755!3d36.2380888068371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ea403682178671%3A0x76adb8485c06cfac!2sSpeedCubeShop!5e0!3m2!1sen!2sge!4v1661872220390!5m2!1sen!2sge" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
         </div>
     </section>
     <!-- End of Section -->
 
-    <!-- Footer -->
     <footer id="footer">
         <div class="footer-container">
             <div class="footer-info-block">

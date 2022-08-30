@@ -1,20 +1,19 @@
 .section-container {
-    padding: 50px 0;
+    padding: 80px 0 80px;
+    /* padding: 50px 0; */
 }
 .about-info-container {
     padding: 20px 15px;
     margin: 0 1px;
+    border-left: 2px solid var(--color-main);
+    border-right: 2px solid var(--color-main);
 }
 .top-block {
     border-top: 2px solid var(--color-main);
-    border-left: 2px solid var(--color-main);
-    border-right: 2px solid var(--color-main);
     border-radius: 10px 10px 0 0;
 }
 .bottom-block {
     border-bottom: 2px solid var(--color-main);
-    border-left: 2px solid var(--color-main);
-    border-right: 2px solid var(--color-main);
     border-radius: 0 0 10px 10px;
 }
 .about-info-content-block {

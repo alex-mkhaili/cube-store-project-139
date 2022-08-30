@@ -58,3 +58,15 @@
 .quiz-btn:hover {
     background-color: #05628a;
 }
+
+.contact-card-container:hover {
+    /* transform: translateY(2px); */
+    transform: scale(1.008);
+}
+.contact-social-media-icons-block i:hover {
+    transform: scale(1.125);
+}
+
+.form-send-btn:hover {
+    background-color: #05628a;
+}
