@@ -50,4 +50,6 @@
     margin-top: 30px;
     cursor: pointer;
     transition: all 0.15s linear;
+    text-transform: uppercase;
+    font-weight: 600;
 }

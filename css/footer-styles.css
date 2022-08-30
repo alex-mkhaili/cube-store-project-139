@@ -95,7 +95,7 @@ footer {
 .copyright-info-block {
     display: flex;
     justify-content: center;
-    border-top: 2px solid gray;
+    border-top: 1px solid gray;
     padding-top: 10px;
 }
 .copyright-text {
