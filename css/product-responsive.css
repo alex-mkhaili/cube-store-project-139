@@ -55,6 +55,19 @@
     .product-content-container {
         /* padding-left: 0;
         padding-right: 0; */
-        gap: 35px;
+        gap: 0;
+    }
+    .product-block {
+        transform: scale(0.81);
+    }
+    .product-block:hover {
+        transform: scale(0.85);
+    }
+    .product-content-container {
+        padding: 20px 15px 20px;
+    }
+    .page-navigation-block {
+        padding-top: 0;
+        margin-bottom: 30px;
     }
 }
