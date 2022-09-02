@@ -60,7 +60,6 @@
 }
 
 .contact-card-container:hover {
-    /* transform: translateY(2px); */
     transform: scale(1.008);
 }
 .contact-social-media-icons-block i:hover {
@@ -69,4 +68,18 @@
 
 .form-send-btn:hover {
     background-color: #05628a;
+}
+
+.user-icon:hover {
+    color: var(--color-main);
+}
+
+.mobile-nav-link:hover::after {
+    content: '';
+    height: 3px;
+    width: 10%;
+    background-color: var(--color-main);
+    display: block;
+    position: absolute;
+    bottom: -10px;
 }
