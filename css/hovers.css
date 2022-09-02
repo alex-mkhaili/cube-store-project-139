@@ -32,7 +32,10 @@
     background-color: var(--color-main);
     color: #fff;
 }
-
+.after-search-filter-block:hover {
+    background-color: var(--color-main);
+    color: #fff;
+}
 .page-number-block a:hover {
     background-color: rgb(221, 221, 221);
     border-radius: 4px;

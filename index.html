@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/product-content.css">
     <link rel="stylesheet" href="css/footer-styles.css">
     <link rel="stylesheet" href="css/header-responsive.css">
+    <link rel="stylesheet" href="css/product-responsive.css">
 </head>
 <body>
     <!-- Header -->
@@ -294,11 +295,14 @@
         </aside>
 
         <div  class="product-container">
-            <div>
-                <form class="search-container" action="#">
-                    <input class="product-search" type="search" name="search" id="product-search" placeholder="Search for product...">
+            <div class="search-container">
+                <form class="search-container-form" action="#">
+                    <input class="product-search" type="search" name="search" id="product-search" placeholder="Search...">
                     <button class="product-search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
+                <div class="after-search-filter-block">
+                    <p>Filter</p>
+                </div>
             </div>
             <div class="sort-container">
                 <div class="content-navigation-blocks">
@@ -321,7 +325,19 @@
                     </form>
                 </div>
             </div>
+            <div class="content-sort-block-2">
+                <form action="#">
+                    <label for="sort-dropdown">Sort by:</label>
+                    <select name="sort" id="sort-dropdown">
+                        <option value="newest">Newest first</option>
+                        <option value="low-to-high">Price: Low to High</option>
+                        <option value="high-to-low">Price: High to Low</option>
+                        <option value="recommended" selected>Recommended</option>
+                    </select>
+                </form>
+            </div>
             <div class="product-content-container">
+                
                 <div class="product-block">
                     <div class="product-img-block">
                         <img class="product-img" src="img/product-img-3x3-1.webp" alt="Cube Image">
@@ -643,7 +659,7 @@
                 </div>
             </div>
             <div class="page-navigation-block">
-                <button class="page-nav-btn"><span class="previous-entity">&larr;</span>Previous</button>
+                <button class="page-nav-btn"><span class="previous-entity">&larr;</span><span class="btn-text">Previous</span></button>
                 <div class="page-number-block">
                     <a href="#">1</a>
                     <a href="#">2</a>
@@ -651,7 +667,7 @@
                     <a href="#">4</a>
                     <a href="#">5</a>
                 </div>
-                <button class="page-nav-btn">Next <span class="next-entity">&rarr;</span></button>
+                <button class="page-nav-btn"><span class="btn-text">Next</span><span class="next-entity">&rarr;</span></button>
             </div>            
         </div>
     </div>
