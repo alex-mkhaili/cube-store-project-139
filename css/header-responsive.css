@@ -59,6 +59,9 @@
     .logo-img {
         width: 100%;
     }
+    .mobile-logo-img {
+        margin-left: 15px;
+    }
 }
 @media ( max-width: 520px) {
     .mobile-nav-logo-link {
@@ -113,13 +116,15 @@
         margin-bottom: 35px;
     }
     .mobile-nav-block {
-        padding-top: 200px;
+        padding-top: 20px;
         /* padding-bottom: 500px; */
+        justify-content: space-evenly;
     }
     .mobile-nav-logo-link {
-        padding-top: 50px;
+        padding: 20px 10px 0;
+
     }
     .mobile-nav-logo-link {
-        display: none;
+        /* display: none; */
     }
 }
