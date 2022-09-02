@@ -77,7 +77,8 @@
 .mobile-nav-link:hover::after {
     content: '';
     height: 3px;
-    width: 10%;
+    width: 25%;
+    transform: translateX(150%);
     background-color: var(--color-main);
     display: block;
     position: absolute;
