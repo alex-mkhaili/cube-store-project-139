@@ -1,0 +1,106 @@
+@media (max-width: 1024px) {
+    .form-section-container {
+        margin: 60px 1px 60px;
+    }
+    .contact-title-text {
+        font-size: 34px;
+    }
+    .contact-subtitle-text {
+        font-size: var(--font-size-16);
+    }
+    .contact-card-title-text {
+        font-size: 26px;
+    }
+    .contact-card-subtitle-text {
+        font-size:var(--font-size-16);
+    }
+    .contact-icon-block a {
+        font-size: var(--font-size-16);
+    }
+    .contact-map-title {
+        font-size: 28px;
+    }
+}
+@media (max-width: 768px) {
+    .form-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-card-container {
+        margin-bottom: 40px;
+    }
+    .form-input-block {
+        margin-bottom: 15px;
+    }
+    .form-mail-textarea-block {
+        margin-bottom: 20px;
+    }
+    .form-section-container {
+        margin: 50px 1px 50px;
+    }
+    .contact-map {
+        height: 320px;
+    }
+}
+@media (max-width: 480px) {
+    .form-section-container {
+        margin: 40px 1px 40px;
+    }
+    .form-input-block {
+        flex-direction: column;
+    }
+    .name-input-block:nth-child(1) {
+        margin-bottom: 20px;
+    }
+    .form-input-block {
+        margin-bottom: 35px;
+    }
+    .form-send-btn {
+        max-width: 160px;
+        font-size: var(--font-size-14);
+    }
+    .contact-title-text {
+        font-size: 30px;
+    }
+    .contact-subtitle-text {
+        font-size: var(--font-size-14);
+    }
+    .contact-card-title-text {
+        font-size: 24px;
+    }
+    .contact-card-title-block {
+        margin-bottom: 30px;
+    }
+    .contact-card-subtitle-text {
+        font-size: var(--font-size-14);
+    }
+    .contact-card-subtitle-block {
+        margin-bottom: 35px;
+    }
+    .contact-icon-block a {
+        font-size: var(--font-size-14);
+    }
+    .contact-social-media-icons-block i {
+        font-size: 22px;
+    }
+    .form-block {
+        padding: 0;
+    }
+    .form-mail-textarea-block textarea {
+        height: 80px;
+    }
+    .contact-map-title {
+        font-size: 22px;
+    }
+    .contact-map {
+        height: 250px;
+    }
+    .contact-card-container {
+        padding: 10px 15px;
+    }
+}
+@media (max-width: 380px) {
+    .form-section-container {
+        margin: 35px 1px 35px;
+    }
+}
