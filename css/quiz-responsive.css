@@ -1,3 +1,11 @@
+@media (max-width: 1150px) {
+    .slider-product-title-text {
+        font-size: var(--font-size-14);
+    }
+    .slider-product-price {
+        font-size: var(--font-size-18);
+    }
+}
 @media (max-width: 1024px) {
     .quiz-content-block {
         top: 35%;
@@ -45,6 +53,19 @@
     }
     .quiz-btn {
         font-size: 12px;
+    }
+    .slider-title-container {
+        padding-top: 25px;
+        padding-bottom: 10px;
+    }
+}
+@media (max-width: 400px) {
+    .slider-product-title-text {
+        font-size: 12px;
+        text-align: center;
+    }
+    .slider-product-price {
+        font-size: var(--font-size-16);
     }
 }
 @media (max-width: 380px) {
