@@ -53,8 +53,6 @@
 }
 @media (max-width: 380px) {
     .product-content-container {
-        /* padding-left: 0;
-        padding-right: 0; */
         gap: 0;
     }
     .product-block {
