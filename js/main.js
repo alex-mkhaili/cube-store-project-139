@@ -7,3 +7,9 @@ mobileNavButton.addEventListener('click', function() {
     mobileNav.classList.toggle('active');
     document.body.classList.toggle('no-scroll')
 })
+
+const messageSendBtn = document.getElementById('message-send-btn');
+
+messageSendBtn.addEventListener('click', function() {
+    alert('Your message has been successfully sent.');
+})

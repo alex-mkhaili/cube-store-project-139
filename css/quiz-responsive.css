@@ -39,18 +39,10 @@
 }
 @media (max-width: 600px) {
     .quiz-title {
-        font-size: var(--font-size-20);
-    }
-}
-@media (max-width: 500px) {
-    .quiz-title {
-        font-size: var(--font-size-18);
+        text-align: center;
     }
 }
 @media (max-width: 450px) {
-    .quiz-title {
-        font-size: var(--font-size-16);
-    }
     .quiz-btn {
         font-size: 12px;
     }
@@ -70,7 +62,7 @@
 }
 @media (max-width: 380px) {
     .quiz-title {
-        font-size: 12px;
+        font-size: var(--font-size-18);
     }
     .quiz-btn {
         margin-top: 18px;
