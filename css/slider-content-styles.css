@@ -12,6 +12,7 @@
     font-size: var(--font-size-20);
     font-weight: 600;
     color: rgb(55, 55, 55);
+    text-transform: uppercase;
 }
 .slider-block {
     max-width: 1200px;
