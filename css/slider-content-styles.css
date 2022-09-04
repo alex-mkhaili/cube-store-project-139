@@ -1,0 +1,34 @@
+.slider-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: gray; */
+}
+.slider-title-container {
+    /* background-color: yellow; */
+    padding: 30px;
+}
+.slider-title-container h3 {
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-20);
+    font-weight: 600;
+}
+.slider-block {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 50px;
+}
+.slider {
+    display: flex;
+}
+.slider .slider_item {
+    width: 350px;
+    height: 320px;
+    margin:30px;
+}
+.slider .slider_item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
