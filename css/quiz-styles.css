@@ -1,4 +1,5 @@
 body {
+    background-image: -o-radial-gradient(circle, #e0e0e0, #dcdcdc, #d7d7d7, #d3d3d3, #cfcfcf, #cecece, #cdcdcd, #cccccc, #cecece, #d0d0d0, #d3d3d3, #d5d5d5);
     background-image: radial-gradient(circle, #e0e0e0, #dcdcdc, #d7d7d7, #d3d3d3, #cfcfcf, #cecece, #cdcdcd, #cccccc, #cecece, #d0d0d0, #d3d3d3, #d5d5d5);
 }
 .quiz-video {
@@ -20,9 +21,16 @@ body {
     position: absolute;
     top: 40%;
     left: 45%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .quiz-title {
     font-family: var(--font-poppins);
@@ -39,7 +47,9 @@ body {
     background-color: #000;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
     bottom: -15px;
 }
 .quiz-btn {
@@ -53,6 +63,8 @@ body {
     padding: 4px;
     margin-top: 30px;
     cursor: pointer;
+    -webkit-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
     transition: all 0.15s linear;
     text-transform: uppercase;
     font-weight: 600;

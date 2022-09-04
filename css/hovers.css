@@ -6,7 +6,9 @@
     display: block;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
     bottom: -14px;
 }
 .login-btn:hover {
@@ -26,7 +28,9 @@
     border-color: var(--color-main);
 }
 .content-nav-text:hover {
-    transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+        -ms-transform: scale(1.06);
+            transform: scale(1.06);
 }
 .product-btn:hover {
     background-color: var(--color-main);
@@ -44,14 +48,20 @@
     background-color: #05628a;
 }
 .product-block:hover {
-    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+        -ms-transform: scale(1.02);
+            transform: scale(1.02);
 }
 .product-img:hover {
-    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+        -ms-transform: scale(1.02);
+            transform: scale(1.02);
 }
 .heart-icon:hover {
     color: rgb(250, 55, 55);
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
 }
 
 .newsletter-btn:hover {
@@ -63,10 +73,14 @@
 }
 
 .contact-card-container:hover {
-    transform: scale(1.008);
+    -webkit-transform: scale(1.008);
+        -ms-transform: scale(1.008);
+            transform: scale(1.008);
 }
 .contact-social-media-icons-block i:hover {
-    transform: scale(1.125);
+    -webkit-transform: scale(1.125);
+        -ms-transform: scale(1.125);
+            transform: scale(1.125);
 }
 
 .form-send-btn:hover {
@@ -81,7 +95,9 @@
     content: '';
     height: 3px;
     width: 25%;
-    transform: translateX(150%);
+    -webkit-transform: translateX(150%);
+        -ms-transform: translateX(150%);
+            transform: translateX(150%);
     background-color: var(--color-main);
     display: block;
     position: absolute;
