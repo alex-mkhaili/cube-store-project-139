@@ -47,6 +47,9 @@
     .footer-container {
         padding: 40px 15px;
     }
+    .newsletter-btn {
+        font-size: 11px;
+    }
 }
 @media (max-width: 380px) {
     .copyright-text-2 {
