@@ -25,6 +25,14 @@
                 justify-content: flex-end;
     }
 }
+@media (max-width: 768px) {
+    .main-title-block {
+        padding: 0 0 16px;
+    }
+    .main-title {
+        font-size: 40px;
+    }
+}
 @media (max-width: 549px) {
     .content-sort-block {
         display: none;
@@ -56,6 +64,9 @@
     }
     .page-number-block {
         width: 45%;
+    }
+    .main-title {
+        font-size: 27px;
     }
     
 }

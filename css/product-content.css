@@ -3,8 +3,18 @@
     padding: 16px 15px 0 15px;
 }
 
-/* Search styles */
+.main-title-block {
+    text-align: center;
+    padding: 10px 0 26px;
+}
+.main-title {
+    font-size: 60px;
+    text-transform: capitalize;
+    font-family: var(--font-asap);
+    color: var(--color-main);
+}
 
+/* Search styles */
 .search-container-form {
     height: 45px;
     display: -webkit-box;
@@ -13,6 +23,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+            
 }
 .product-search {
     max-width: 1000px;
